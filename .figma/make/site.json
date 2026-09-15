@@ -1,0 +1,10 @@
+{
+  "description": "Access a personalized library experience with features like login, registration, book catalog, and stats tracking for students in a school setting.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

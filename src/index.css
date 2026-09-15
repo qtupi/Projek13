@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-navy: #0B3359;
+  --color-navy-dark: #082845;
+  --color-navy-light: #0F4A7B;
+  --color-gold: #E8AF22;
+  --color-gold-dark: #C99010;
+  --color-gold-light: #FFC638;
+  --font-sans: 'Nunito', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background: #f0f4f8;
+}
+
+.phone-screen {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.phone-screen::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
